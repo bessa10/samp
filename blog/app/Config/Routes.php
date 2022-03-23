@@ -44,7 +44,7 @@ $routes->set404Override(function ()
 
 $routes->get('posts', 'Posts::index');
 $routes->get('posts/edit/(:cod_post)', 'Posts::find/$1');
-$routes->get('posts/list', 'Posts::index');
+$routes->get('posts/list', 'Posts::list');
 $routes->get('posts/create', 'Posts::create');
 $routes->post('posts/create', 'Posts::create');
 $routes->get('posts/edit/(:cod_post)', 'Posts::edit/$1');

@@ -6,19 +6,21 @@ class Posts extends BaseController
 {
     public function index()
     {
-        echo 'Page list posts';
+        return view('posts/index');
+    }
 
+    public function list()
+    {
+        return view('posts/list');
     }
 
     public function create()
     {
-        echo 'Page create new posts';
-
+        return view('posts/create');
     }
 
     public function edit()
     {
-        echo 'Page edit post';
-
+        return view('posts/edit');
     }
 }

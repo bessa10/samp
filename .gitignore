@@ -1,0 +1,11 @@
+api/writable/debugbar/*
+api/writable/logs/*
+api/writable/session/*
+api/writable/uploads/*
+api/writable/cache/*
+
+blog/writable/debugbar/*
+blog/writable/logs/*
+blog/writable/session/*
+blog/writable/uploads/*
+blog/writable/cache/*

@@ -1,0 +1,244 @@
+CRITICAL - 2022-03-05 10:41:02 --> Call to undefined method App\Controllers\Pessoas::request()
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 10:42:28 --> Undefined variable: request
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 31, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 10:48:43 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(20): CodeIgniter\Model->__call('list_pessoas', Array)
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 10:49:22 --> Call to undefined method App\Models\PessoasModel::list_pessoas
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(20): CodeIgniter\Model->__call('list_pessoas', Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 10:50:28 --> Call to undefined method App\Models\PessoasModel::list_pessoas
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(20): CodeIgniter\Model->__call('list_pessoas', Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 11:58:53 --> Undefined index: rg
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Models\PessoasModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 36, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(29): App\Models\PessoasModel->create(Array)
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 11:59:00 --> Undefined index: rg
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Models\PessoasModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 36, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(29): App\Models\PessoasModel->create(Array)
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 12:32:50 --> Undefined variable: session
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\create.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 4, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/create', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(60): view('pessoas/create', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 12:37:32 --> Undefined variable: session
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\create.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 4, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/create', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(60): view('pessoas/create', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 12:40:07 --> Argument 1 passed to CodeIgniter\View\View::__construct() must be an instance of Config\View, string given, called in C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Services.php on line 35
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Services.php(35): CodeIgniter\View\View->__construct('C:\\wamp64\\www\\d...')
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\Debug\Toolbar\Collectors\Views.php(81): Config\Services::renderer()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Views->__construct()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#8 C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Events.php(48): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\wamp64\www\desafio-skysolar\cadastro\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#10 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#11 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-05 12:40:14 --> Argument 1 passed to CodeIgniter\View\View::__construct() must be an instance of Config\View, string given, called in C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Services.php on line 35
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Services.php(35): CodeIgniter\View\View->__construct('C:\\wamp64\\www\\d...')
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\Debug\Toolbar\Collectors\Views.php(81): Config\Services::renderer()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Views->__construct()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#8 C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Events.php(48): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\wamp64\www\desafio-skysolar\cadastro\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#10 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#11 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-05 12:40:16 --> Argument 1 passed to CodeIgniter\View\View::__construct() must be an instance of Config\View, string given, called in C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Services.php on line 35
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Services.php(35): CodeIgniter\View\View->__construct('C:\\wamp64\\www\\d...')
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\Debug\Toolbar\Collectors\Views.php(81): Config\Services::renderer()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\Debug\Toolbar.php(62): CodeIgniter\Debug\Toolbar\Collectors\Views->__construct()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\Services.php(626): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\Services.php(621): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', NULL)
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\Config\BaseService.php(248): CodeIgniter\Config\Services::toolbar()
+#8 C:\wamp64\www\desafio-skysolar\cadastro\app\Config\Events.php(48): CodeIgniter\Config\BaseService::__callStatic('toolbar', Array)
+#9 C:\wamp64\www\desafio-skysolar\cadastro\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#10 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#11 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-05 12:43:12 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(33): redirect('pessoas/list')
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 12:43:27 --> Undefined property: App\Controllers\Pessoas::$session
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\d...', 40, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 12:43:40 --> Undefined variable: session
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 40, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 12:43:41 --> Undefined variable: session
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 40, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 12:47:51 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-05 13:49:13 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\Controller.php(85): helper(Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 13:50:07 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\Controller.php(85): helper(Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 13:50:14 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\Controller.php(85): helper(Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 13:50:34 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\Controller.php(85): helper(Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 17:37:56 --> Undefined variable: type
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\d...', 53, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 17:38:55 --> Undefined index: nome_completo
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 17, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/create', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(60): view('pessoas/create', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 17:39:47 --> Undefined index: nome_completo
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 17, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/create', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(60): view('pessoas/create', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 19:17:06 --> Call to undefined function set_value()
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include()
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/create', Array, true)
+#3 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(57): view('pessoas/create', Array)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-05 19:17:59 --> Undefined index: complemento
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Models\PessoasModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 46, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(29): App\Models\PessoasModel->create(Array)
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 19:19:55 --> Undefined index: complemento
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Models\PessoasModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 46, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(29): App\Models\PessoasModel->create(Array)
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 19:20:34 --> Undefined index: excluido
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Models\PessoasModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 50, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(29): App\Models\PessoasModel->create(Array)
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

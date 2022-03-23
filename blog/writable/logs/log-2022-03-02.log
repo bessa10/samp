@@ -1,0 +1,32 @@
+CRITICAL - 2022-03-02 10:01:03 --> Call to undefined method App\Controllers\Pessoas::extend()
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-02 10:15:20 --> Use of undefined constant TOKEN_API - assumed 'TOKEN_API' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\d...', 18, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-02 11:27:14 --> Class 'App\Models\ApiModdel' not found
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(809): App\Controllers\Pessoas->__construct()
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-02 11:37:45 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-02 11:39:54 --> syntax error, unexpected 'private' (T_PRIVATE)
+#0 C:\wamp64\www\desafio-skysolar\cadastro\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\d...')
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ApiM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ApiM...')
+#3 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(15): spl_autoload_call('App\\Models\\ApiM...')
+#4 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(809): App\Controllers\Pessoas->__construct()
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

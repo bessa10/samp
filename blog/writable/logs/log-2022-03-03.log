@@ -1,0 +1,44 @@
+CRITICAL - 2022-03-03 23:29:52 --> Trying to get property 'nome_completo' of non-object
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\d...', 33, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/index', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(22): view('pessoas/index', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 23:30:07 --> Illegal string offset 'nome_completo'
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\d...', 33, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/index', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(22): view('pessoas/index', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 23:30:08 --> Illegal string offset 'nome_completo'
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\d...', 33, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/index', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(22): view('pessoas/index', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 23:35:07 --> Undefined index: 
+#0 C:\wamp64\www\desafio-skysolar\cadastro\app\Views\pessoas\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 39, Array)
+#1 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#2 C:\wamp64\www\desafio-skysolar\cadastro\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\desafio-skysolar\cadastro\system\Common.php(1089): CodeIgniter\View\View->render('pessoas/index', Array, true)
+#4 C:\wamp64\www\desafio-skysolar\cadastro\app\Controllers\Pessoas.php(22): view('pessoas/index', Array)
+#5 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(832): App\Controllers\Pessoas->index()
+#6 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#7 C:\wamp64\www\desafio-skysolar\cadastro\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\desafio-skysolar\cadastro\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

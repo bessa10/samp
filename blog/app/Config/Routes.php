@@ -31,7 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Posts::index');
 
 $routes->set404Override(function ()
 {   
@@ -41,6 +41,16 @@ $routes->set404Override(function ()
     echo json_encode($response);
 
 });
+
+$routes->get('posts', 'Posts::index');
+$routes->get('posts/edit/(:cod_post)', 'Posts::find/$1');
+$routes->get('posts/list', 'Posts::index');
+$routes->get('posts/create', 'Posts::create');
+$routes->post('posts/create', 'Posts::create');
+$routes->get('posts/edit/(:cod_post)', 'Posts::edit/$1');
+$routes->post('posts/edit/(:cod_post)', 'Posts::edit/$1');
+
+
 
 /*
  * --------------------------------------------------------------------

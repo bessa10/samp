@@ -1,0 +1,79 @@
+CRITICAL - 2022-03-22 21:38:15 --> Undefined property: App\Controllers\Posts::$pessoasModel
+#0 C:\wamp64\www\samplemed\api\app\Controllers\Posts.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 35, Array)
+#1 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(832): App\Controllers\Posts->list()
+#2 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#3 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 21:41:21 --> Call to undefined method App\Models\PostsModel::order_by
+#0 C:\wamp64\www\samplemed\api\app\Controllers\Posts.php(35): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(832): App\Controllers\Posts->list()
+#2 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#3 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 21:41:54 --> syntax error, unexpected ''dth_insert DESC'' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 21:43:37 --> syntax error, unexpected '"dth_insert DESC"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-22 21:53:29 --> Unknown column 'dth_insert_t' in 'order clause'
+CRITICAL - 2022-03-22 21:58:00 --> Undefined property: App\Controllers\Posts::$pessoasModel
+#0 C:\wamp64\www\samplemed\api\app\Controllers\Posts.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 63, Array)
+#1 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(832): App\Controllers\Posts->find('1')
+#2 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#3 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 21:58:15 --> Undefined variable: cod_pessoa
+#0 C:\wamp64\www\samplemed\api\app\Controllers\Posts.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 63, Array)
+#1 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(832): App\Controllers\Posts->find('1')
+#2 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Posts))
+#3 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 22:45:59 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 22:46:14 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 22:46:25 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\samplemed\api\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\samplemed\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\samplemed\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

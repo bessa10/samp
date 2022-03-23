@@ -1,0 +1,74 @@
+CRITICAL - 2022-03-05 12:02:56 --> Undefined index: rg
+#0 C:\wamp64\www\desafio-skysolar\api\app\Controllers\Pessoas.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 86, Array)
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 12:06:58 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-05 12:07:56 --> Undefined index: rg
+#0 C:\wamp64\www\desafio-skysolar\api\app\Controllers\Pessoas.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\d...', 86, Array)
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(832): App\Controllers\Pessoas->create()
+#2 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pessoas))
+#3 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 12:16:43 --> Class 'Home' not found
+#0 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-05 12:16:44 --> Class 'Home' not found
+#0 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-05 12:17:02 --> Class 'Home' not found
+#0 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-05 12:17:13 --> Class 'Home/page_not_found' not found
+#0 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-05 12:17:14 --> Class 'Home/page_not_found' not found
+#0 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(857): CodeIgniter\CodeIgniter->createController()
+#1 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-05 12:18:51 --> Invalid file: Home/page_not_found.php
+#0 C:\wamp64\www\desafio-skysolar\api\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/page_not_f...')
+#1 C:\wamp64\www\desafio-skysolar\api\system\Common.php(1089): CodeIgniter\View\View->render('Home/page_not_f...', Array, true)
+#2 C:\wamp64\www\desafio-skysolar\api\app\Config\Routes.php(38): view('Home/page_not_f...')
+#3 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(849): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#4 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 12:18:51 --> Invalid file: Home/page_not_found.php
+#0 C:\wamp64\www\desafio-skysolar\api\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/page_not_f...')
+#1 C:\wamp64\www\desafio-skysolar\api\system\Common.php(1089): CodeIgniter\View\View->render('Home/page_not_f...', Array, true)
+#2 C:\wamp64\www\desafio-skysolar\api\app\Config\Routes.php(38): view('Home/page_not_f...')
+#3 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(849): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#4 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 12:18:52 --> Invalid file: Home/page_not_found.php
+#0 C:\wamp64\www\desafio-skysolar\api\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/page_not_f...')
+#1 C:\wamp64\www\desafio-skysolar\api\system\Common.php(1089): CodeIgniter\View\View->render('Home/page_not_f...', Array, true)
+#2 C:\wamp64\www\desafio-skysolar\api\app\Config\Routes.php(38): view('Home/page_not_f...')
+#3 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(849): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#4 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 12:20:03 --> Invalid file: Home/page_not_found.php
+#0 C:\wamp64\www\desafio-skysolar\api\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/page_not_f...')
+#1 C:\wamp64\www\desafio-skysolar\api\system\Common.php(1089): CodeIgniter\View\View->render('Home/page_not_f...', Array, true)
+#2 C:\wamp64\www\desafio-skysolar\api\app\Config\Routes.php(38): view('Home/page_not_f...')
+#3 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(849): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#4 C:\wamp64\www\desafio-skysolar\api\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 C:\wamp64\www\desafio-skysolar\api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

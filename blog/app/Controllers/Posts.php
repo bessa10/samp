@@ -4,6 +4,13 @@ namespace App\Controllers;
 
 class Posts extends BaseController
 {
+    private $postsModel;
+
+    public function __construct()
+    {
+        $this->postsModel = new \App\Models\postsModel();
+    }
+
     public function index()
     {
         return view('posts/index');
@@ -11,7 +18,9 @@ class Posts extends BaseController
 
     public function list()
     {
-        return view('posts/list');
+        $list_posts = $this->postsModel->list();
+
+        return view('posts/list', compact('list_posts'));
     }
 
     public function create()

@@ -50,6 +50,10 @@ $routes->post('posts/create', 'Posts::create');
 $routes->put('posts/update/(:cod_pessoa)', 'Posts::update/$1');
 $routes->delete('posts/cancel/(:cod_pessoa)', 'Posts::cancel/$1');
 
+//Categories REST
+$routes->get('categories', 'Categories::list');
+$routes->get('categories/list', 'Categories::list');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

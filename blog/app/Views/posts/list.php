@@ -52,7 +52,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <a href="<?= site_url().'pessoas/create' ?>" class="btn btn-dark"><i class="fa fa-plus"></i>&nbsp;&nbsp;create new post</a>
+                <a href="<?= site_url().'posts/create' ?>" class="btn btn-dark"><i class="fa fa-plus"></i>&nbsp;&nbsp;create new post</a>
 
             </div>
         </div>

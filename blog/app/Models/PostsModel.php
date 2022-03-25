@@ -27,6 +27,40 @@ class PostsModel extends Model
         return $list_posts['data'];
     }
 
+    public function create($form = null)
+    {
+        $endpoint = 'posts/create';
+
+        $return = [];
+
+        if ($form != null) {
+
+            // Montando os dados para serem enviados
+            $data['title']          = $form['title'];
+            $data['description']    = $form['description'];
+            $data['text']           = $form['text'];
+
+            $return = $this->apiModel->sendHttpPost($endpoint, null, $data);
+
+            $return = json_decode($return, true);
+
+            if (!$return) {
+
+                $return['response']    = 'error';
+                $return['msg']         = 'Unable to register the person';
+            }
+            
+            return $return;
+
+        } else {
+
+            return false;
+        }
+
+
+
+
+    }
 
 
 

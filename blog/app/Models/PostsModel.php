@@ -109,4 +109,22 @@ class PostsModel extends Model
             return false;
         }
     }
+
+    public function remove($cod_post = null)
+    {
+        if ($cod_post != null) {
+
+            $endpoint = 'posts/cancel/'.$cod_post;
+
+            $response = $this->apiModel->sendHttpDelete($endpoint);
+
+            $response = json_decode($response, true);
+
+            return $response;
+
+        } else {
+
+            return false;
+        }
+    }
 }

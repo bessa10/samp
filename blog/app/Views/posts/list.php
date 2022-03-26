@@ -57,4 +57,5 @@
             </div>
         </div>
     </div>
+    <?= $this->include('posts/modal_remove_post') ?>
 <?= $this->endSection() ?>

@@ -125,4 +125,43 @@ class Posts extends BaseController
 
         return view('posts/edit', compact('validation_error', 'list_categories', 'post_data'));
     }
+
+    public function remove()
+    {  
+        if ($_SERVER['REQUEST_METHOD']=='POST') {
+
+            if ($this->request->getPost('exc_cod_post')) {
+
+                $cod_post = $this->request->getPost('exc_cod_post');
+
+                $response = $this->postsModel->remove($cod_post);
+
+                if ($response['response'] == 'success') {
+
+                    $type = 'success';
+                    $msg  = 'Post successfully removed.';
+
+                } else {
+
+                    $type = 'danger';
+                    $msg  = 'Unable to remove post, please try again.';
+                }
+            }
+
+        } else {
+
+            $type = 'danger';
+            $msg  = 'Unable to remove post, please try again.';
+        }
+
+        $alert['type'] = $type;
+        $alert['msg']  = $msg;
+
+        session()->setFlashdata($alert);
+
+        return redirect()->route('posts/list');
+    }
+
+
+
 }

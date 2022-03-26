@@ -28,7 +28,7 @@
                             <?php foreach ($list_posts as $key => $value) { ?>
                             <tr>
                                 <td><?= $value['title'] ?></td>
-                                <td class="text-center"><?= $value['cod_category'] ?></td>
+                                <td class="text-center"><?= $value['category_description'] ?></td>
                                 <td class="text-center"><?= $value['dth_insert'] ?></td>
                                 <td class="text-center">
                                     <a href="<?= site_url().'posts/edit/'.$value['cod_post'] ?>"  class="btn btn-small btn-info"

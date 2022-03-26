@@ -55,7 +55,7 @@
                     <button class="btn btn-dark" type="submit"><i class="fa fa-save"></i>&nbsp;&nbsp;Save</button>
                 </div>
                 <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
-                    <a href="<?= site_url().'pessoas' ?>" class="btn btn-info" type="submit"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Return</a>
+                    <a href="<?= site_url().'posts/list' ?>" class="btn btn-info" type="submit"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Return</a>
                 </div>
             </div>
         </form>

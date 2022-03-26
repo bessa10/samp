@@ -33,7 +33,13 @@ class Posts extends ResourceController
 
         try {
 
-            $data = $this->postsModel->orderBy('dth_insert DESC')->where('excluded', 0)->findAll();
+            $data = $this->postsModel
+                        ->select('tb_posts.*')
+                        ->select('tb_categories.category_description')
+                        ->join('tb_categories', 'tb_categories.cod_category = tb_posts.cod_category')
+                        ->orderBy('tb_posts.dth_insert DESC')
+                        ->where('tb_posts.excluded', 0)
+                        ->findAll();
 
             $response = [
                 'response'  => 'success',

@@ -24,6 +24,23 @@ class Posts extends BaseController
         return view('posts/index', compact('list_posts', 'list_categories'));
     }
 
+    public function details($cod_post)
+    {
+        $post_data = $this->postsModel->find($cod_post);
+
+        if (!$post_data) {
+
+            $alert['type'] = 'danger';
+            $alert['msg']  = 'Unable to view post details, please try again.';
+
+            session()->setFlashdata($alert);
+
+            return redirect()->route('posts');
+        }
+
+        return view('posts/details', compact('post_data'));
+    }
+
     public function list()
     {
         $list_posts = $this->postsModel->list();

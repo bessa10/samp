@@ -23,8 +23,15 @@
                                     <div class="post-text">
                                         <?= $value['description'] ?>
                                     </div>
-                                    <div class="text-right">
-                                        <a href="<?= site_url().'posts/details/'.$value['cod_post'] ?>" class="btn btn-dark">View more</a>
+                                    <div class="row mt-4">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                            <span class="category-post badge badge-info"><?= $value['category_description'] ?></span>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                            <div class="text-right">
+                                                <a href="<?= site_url().'posts/details/'.$value['cod_post'] ?>" class="btn btn-dark">View more</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

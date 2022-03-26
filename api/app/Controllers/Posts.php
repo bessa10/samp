@@ -66,7 +66,12 @@ class Posts extends ResourceController
         
         try {
 
-            $data = $this->postsModel->where('excluded', 0)->find($cod_post);
+            $data = $this->postsModel
+                        ->select('tb_posts.*')
+                        ->select('tb_categories.category_description')
+                        ->join('tb_categories', 'tb_categories.cod_category = tb_posts.cod_category')
+                        ->where('tb_posts.excluded', 0)
+                        ->find($cod_post);
 
             $response = [
                 'response'  => 'success',

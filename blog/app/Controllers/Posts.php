@@ -17,7 +17,11 @@ class Posts extends BaseController
 
     public function index()
     {
-        return view('posts/index');
+        $list_posts = $this->postsModel->list();
+
+        $list_categories = $this->categoriesModel->list();
+
+        return view('posts/index', compact('list_posts', 'list_categories'));
     }
 
     public function list()

@@ -35,10 +35,7 @@ $routes->get('/', 'Posts::index');
 
 $routes->set404Override(function ()
 {   
-    $response['response']   = 'error';
-    $response['msg']        = 'Page not found';
-
-    echo json_encode($response);
+    echo view('my_errors/page_not_found');
 
 });
 
@@ -49,8 +46,6 @@ $routes->get('posts/create', 'Posts::create');
 $routes->post('posts/create', 'Posts::create');
 $routes->get('posts/edit/(:cod_post)', 'Posts::edit/$1');
 $routes->post('posts/edit/(:cod_post)', 'Posts::edit/$1');
-
-
 
 /*
  * --------------------------------------------------------------------

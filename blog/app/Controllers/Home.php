@@ -8,4 +8,11 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function page_not_found()
+    {
+
+        echo 'olá';
+
+    }
 }

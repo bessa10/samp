@@ -20,6 +20,19 @@
                 </div>
             </div>
             <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <label for="cod_category"><strong>Category</strong></label>
+                    <select class="form-control <?= isInvalid($validation_error,'cod_category') ?>" name="cod_category" id="cod_category">
+                        <option value="">Selecione</option>
+                        <?php foreach($list_categories as $row) { ?>
+                            <?php $selected = ($row['cod_category'] == set_value('cod_category')) ? 'selected' : '' ?>
+                            <option value="<?= $row['cod_category'] ?>" <?= $selected ?>><?= $row['category_description'] ?></option>    
+                        <?php } ?>
+                    </select>
+                    <?= invalidFeedback($validation_error, 'cod_category') ?>
+                </div>
+            </div>
+            <div class="row">
                 <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <label for="rg"><strong>Description</strong></label>
                     <textarea class="form-control <?= isInvalid($validation_error,'description') ?>" name="description" id="description" rows="5">

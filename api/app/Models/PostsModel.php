@@ -22,5 +22,6 @@ class PostsModel extends Model
         'title'             => 'required',
         'description'       => 'required',
         'text'              => 'required',
+        'cod_category'      => 'required'
     ];
 }

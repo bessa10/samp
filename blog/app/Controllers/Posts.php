@@ -7,10 +7,12 @@ use Exception;
 class Posts extends BaseController
 {
     private $postsModel;
+    private $categoriesModel;
 
     public function __construct()
     {
         $this->postsModel = new \App\Models\postsModel();
+        $this->categoriesModel = new \App\Models\categoriesModel();
     }
 
     public function index()
@@ -28,6 +30,8 @@ class Posts extends BaseController
     public function create()
     {
         $validation_error = null;
+
+        $list_categories = $this->categoriesModel->list();
 
         if ($_SERVER['REQUEST_METHOD']=='POST') {
 
@@ -64,7 +68,7 @@ class Posts extends BaseController
             }
         }
 
-        return view('posts/create', compact('validation_error'));
+        return view('posts/create', compact('validation_error', 'list_categories'));
     }
 
     public function edit()

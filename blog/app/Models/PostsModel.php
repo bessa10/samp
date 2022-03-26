@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class PostsModel extends Model
 {
-    protected $table        = 'posts';
+    protected $table        = 'tb_posts';
     protected $primaryKey   = 'cod_post';
 
     private $apiModel;
@@ -39,6 +39,7 @@ class PostsModel extends Model
             $data['title']          = $form['title'];
             $data['description']    = $form['description'];
             $data['text']           = $form['text'];
+            $data['cod_category']   = $form['cod_category'];
 
             $return = $this->apiModel->sendHttpPost($endpoint, null, $data);
 

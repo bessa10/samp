@@ -68,7 +68,12 @@ class Posts extends BaseController
             }
         }
 
-        return view('posts/create', compact('validation_error', 'list_categories'));
+        $ckeditor = [
+            ['name' => 'description', 'height' => '300'],
+            ['name' => 'text', 'height' => '400']
+        ];
+
+        return view('posts/create', compact('validation_error', 'list_categories', 'ckeditor'));
     }
 
     public function edit($cod_post)
@@ -123,7 +128,12 @@ class Posts extends BaseController
             }
         }
 
-        return view('posts/edit', compact('validation_error', 'list_categories', 'post_data'));
+        $ckeditor = [
+            ['name' => 'description', 'height' => '300'],
+            ['name' => 'text', 'height' => '400']
+        ];
+
+        return view('posts/edit', compact('validation_error', 'list_categories', 'post_data', 'ckeditor'));
     }
 
     public function remove()

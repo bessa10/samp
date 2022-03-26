@@ -17,5 +17,19 @@
         <script src="<?= site_url().'assets/vendor/fontawesome/js/fontawesome.min.js' ?>"></script>
         <script src="<?= site_url().'assets/vendor/fontawesome/js/be1cab109c.js'?>"></script>
         <script src="<?= site_url().'assets/js/init.js?v='.date('YmdHis') ?>"></script>
+        <script src="<?= site_url().'assets/vendor/ckeditor/ckeditor.js' ?>"></script>
+        <?php 
+        if (isset($ckeditor)) { 
+            foreach ($ckeditor as $key => $value) {
+        ?>
+        <script type="text/javascript">
+            CKEDITOR.replace('<?= $value['name'] ?>',{
+                height:<?= $value['height'] ?>
+            });
+        </script>
+        <?php 
+            }
+        } 
+        ?>
     </body>
 </html>

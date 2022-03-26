@@ -61,3 +61,13 @@ if (!function_exists('invalidFeedback'))
         return $html;
     }
 }
+
+if (!function_exists('clearEndSpaces')) 
+{
+    function clearEndSpaces($text)
+    {
+        $text = trim($text);
+        
+        return $text;
+    }
+}

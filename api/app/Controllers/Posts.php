@@ -96,7 +96,6 @@ class Posts extends ResourceController
             $dados = (array) $this->request->getJson();
 
             $newPost['title']             = (isset($dados['title'])) ? $dados['title'] : null;
-            $newPost['image']             = (isset($dados['image'])) ? $dados['image'] : null;
             $newPost['description']       = (isset($dados['description'])) ? $dados['description'] : null;
             $newPost['text']              = (isset($dados['text'])) ? $dados['text'] : null;
             $newPost['cod_category']      = (isset($dados['cod_category'])) ? $dados['cod_category'] : null;
@@ -104,7 +103,6 @@ class Posts extends ResourceController
         } else {
 
             $newPost['title']         = ($this->request->getPost('title')) ? $this->request->getPost('title') : null;
-            $newPost['image']         = ($this->request->getPost('image')) ? $this->request->getPost('image') : null;
             $newPost['description']   = ($this->request->getPost('description')) ? $this->request->getPost('description') : null;
             $newPost['text']          = ($this->request->getPost('text')) ? $this->request->getPost('text') : null;
             $newPost['cod_category']  = ($this->request->getPost('cod_category')) ? $this->request->getPost('cod_category') : null;
@@ -162,7 +160,6 @@ class Posts extends ResourceController
                 $dados = (array) $this->request->getJson();
 
                 $newPost['title']             = (isset($dados['title'])) ? $dados['title'] : $data->title;
-                $newPost['image']             = (isset($dados['image'])) ? $dados['image'] : $data->image;
                 $newPost['description']       = (isset($dados['description'])) ? $dados['description'] : $data->description;
                 $newPost['text']              = (isset($dados['text'])) ? $dados['text'] : $data->text;
                 $newPost['cod_category']      = (isset($dados['cod_category'])) ? $dados['cod_category'] : $data->cod_category;
@@ -170,7 +167,6 @@ class Posts extends ResourceController
             } else {
 
                 $newPost['title']         = ($this->request->getPost('title')) ? $this->request->getPost('title') : $data->title;
-                $newPost['image']         = ($this->request->getPost('image')) ? $this->request->getPost('image') : $data->image;
                 $newPost['description']   = ($this->request->getPost('description')) ? $this->request->getPost('description') : $data->description;
                 $newPost['text']          = ($this->request->getPost('text')) ? $this->request->getPost('text') : $data->text;
                 $newPost['cod_category']  = ($this->request->getPost('cod_category')) ? $this->request->getPost('cod_category') : $data->cod_category;

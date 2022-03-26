@@ -44,11 +44,11 @@ $routes->set404Override(function ()
 
 // Posts REST
 $routes->get('posts', 'Posts::list');
-$routes->get('posts/find/(:cod_pessoa)', 'Posts::find/$1');
+$routes->get('posts/find/(:cod_post)', 'Posts::find/$1');
 $routes->get('posts/list', 'Posts::list');
 $routes->post('posts/create', 'Posts::create');
-$routes->put('posts/update/(:cod_pessoa)', 'Posts::update/$1');
-$routes->delete('posts/cancel/(:cod_pessoa)', 'Posts::cancel/$1');
+$routes->put('posts/update/(:cod_post)', 'Posts::update/$1');
+$routes->delete('posts/cancel/(:cod_post)', 'Posts::cancel/$1');
 
 //Categories REST
 $routes->get('categories', 'Categories::list');

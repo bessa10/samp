@@ -10,7 +10,6 @@ class PostsModel extends Model
     protected $primaryKey = 'cod_post';
     protected $allowedFields = [
         'title',
-        'image',
         'description',
         'text',
         'cod_category',
